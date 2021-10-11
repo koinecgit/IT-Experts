@@ -1,8 +1,7 @@
-IT SP
-- Xây dựng quy trình, thủ tục IT
-- Tiếp nhận yêu cầu của người dùng
-- Bàn giao hướng dẫn sử dụng cho người dùng
-- Tư vấn đề xuất mua sắm theo hướng dẫn của team SYS/DEV/SEC/OPS
-- Lắp đặt Hardware theo hướng dẫn của team SYS/DEV/SEC/OPS
-- Cài đặt OS/Software theo hướng dẫn của team SYS/DEV/SEC/OPS
-- Khắc phục sự cố theo hướng dẫn của team SYS/DEV/SEC/OPS
+- Building IT processes and procedures
+- Receive user requests
+- Handing over user manuals to users
+- Consulting on procurement proposals under the guidance of the SYS/DEV/SEC/OPS team
+- Hardware installation according to the instructions of the SYS/DEV/SEC/OPS team
+- Install OS/Software according to the instructions of the SYS/DEV/SEC/OPS team
+- Troubleshooting according to the instructions of the SYS/DEV/SEC/OPS team
