@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome Anonymous :|</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="js/normalize.min.css">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+        h3, h1 {
+        color: yellow;
+        }
+        </style>
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        
+        <script>
+        /* Add "https://api.ipify.org?format=json" statement
+        this will communicate with the ipify servers in
+        order to retrieve the IP address $.getJSON will
+        load JSON-encoded data from the server using a
+        GET HTTP request */
+        
+        $.getJSON("https://api.ipify.org?format=json",
+        function(data) {
+        
+        // Setting text of element P with id gfg
+        $("#gfg").html(data.ip);
+        })
+        </script>
+    </head>
+    
+    <body>
+        <center>
+        <h3>Your Public IP Address is:</h3>
+        <h1 id="gfg"></h1>
+        
+        </center>
+        <div id="large-header" class="large-header"><canvas id="demo-canvas" width="1234" height="567"></canvas>
+        </div>
+        <script src='js/TweenMax.min.js'></script>
+        <script src="js/index.js"></script>
+    </body>
+    
+</html>
